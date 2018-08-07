@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="dry run - screenshots">
+  <test name="screenshots">
+    <classes>
+      <class name="screenshot.ScreenshotsEx"/>
+    </classes>
+  </test>
+    <listeners>
+        <listener class-name="screenshot.ListenerTest" />
+  </listeners>
+</suite>
