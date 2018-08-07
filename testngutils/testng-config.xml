@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="dry run - testng data provider">
+	<test name="testng_dataprovider_test">
+		<classes>
+			<class name="dataproviderutils.DataProviderTest"></class>
+		</classes>
+	</test>
+</suite>
