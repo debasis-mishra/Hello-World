@@ -8,12 +8,18 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="7">dry run - same class data provider</th></tr>
-<tr><td><a href="#t0">provider1</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num">86</td><td></td><td></td></tr>
+<tr><th colspan="7">dry run - soft assert vs hard assert</th></tr>
+<tr><td><a href="#t0">softassert1</a></td><td class="num">1</td><td class="num">0</td><td class="num attn">2</td><td class="num">53</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">dry run - same class data provider</th></tr></tbody><tbody id="t0"><tr><th colspan="4">provider1 &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">dataproviderutils.DataProviderTest2</td><td><a href="#m0">loginTest</a></td><td rowspan="2">1533716479639</td><td rowspan="2">1</td></tr><tr class="passedeven"><td><a href="#m1">loginTest</a></td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">dry run - soft assert vs hard assert</th></tr></tbody><tbody id="t0"><tr><th colspan="4">softassert1 &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">softassertutils.SoftAssertTest</td><td><a href="#m0">verifyHardAssert</a></td><td rowspan="1">1533731080913</td><td rowspan="1">15</td></tr><tr class="failedeven"><td><a href="#m1">verifySoftAssert1</a></td><td rowspan="1">1533731080932</td><td rowspan="1">4</td></tr><tr><th colspan="4">softassert1 &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">softassertutils.SoftAssertTest</td><td><a href="#m2">verifySoftAssert2</a></td><td rowspan="1">1533731080939</td><td rowspan="1">1</td></tr></tbody>
 </table>
-<h2>provider1</h2><h3 id="m0">dataproviderutils.DataProviderTest2#loginTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>User2</td><td>Pwd2</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">dataproviderutils.DataProviderTest2#loginTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>User1</td><td>Pwd1</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>softassert1</h2><h3 id="m0">softassertutils.SoftAssertTest#verifyHardAssert</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [true] but found [false]
+	at softassertutils.SoftAssertTest.verifyHardAssert(SoftAssertTest.java:32)
+... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">softassertutils.SoftAssertTest#verifySoftAssert1</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: The following asserts failed:
+	expected [true] but found [false]
+	at softassertutils.SoftAssertTest.verifySoftAssert1(SoftAssertTest.java:16)
+... Removed 26 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">softassertutils.SoftAssertTest#verifySoftAssert2</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

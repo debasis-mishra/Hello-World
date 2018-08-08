@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="dry run - parameterization">
+	<test name = "parameterization1">
+		<parameter name = "author" value="Guru99"></parameter>
+		<parameter name = "searchKey" value="India"></parameter>
+		<classes>
+			<class name = "parameterizationutils.ParameterizationTest1"></class>
+		</classes>
+	</test>
+	</suite>
