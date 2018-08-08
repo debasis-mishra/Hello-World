@@ -1,61 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="dry run - testng data provider" duration-ms="72232" started-at="2018-08-07T14:17:44Z" finished-at="2018-08-07T14:18:57Z">
+  <suite name="dry run - same class data provider" duration-ms="86" started-at="2018-08-08T08:21:19Z" finished-at="2018-08-08T08:21:19Z">
     <groups>
     </groups>
-    <test name="testng_dataprovider_test" duration-ms="72232" started-at="2018-08-07T14:17:44Z" finished-at="2018-08-07T14:18:57Z">
-      <class name="dataproviderutils.DataProviderTest">
-        <test-method status="PASS" signature="verifyUserLogin(java.lang.String, java.lang.String)[pri:0, instance:dataproviderutils.DataProviderTest@4abdb505]" name="verifyUserLogin" duration-ms="40855" started-at="2018-08-07T14:17:44Z" data-provider="Authentication" finished-at="2018-08-07T14:18:25Z">
+    <test name="provider1" duration-ms="86" started-at="2018-08-08T08:21:19Z" finished-at="2018-08-08T08:21:19Z">
+      <class name="dataproviderutils.DataProviderTest2">
+        <test-method status="PASS" signature="loginTest(java.lang.String, java.lang.String)[pri:0, instance:dataproviderutils.DataProviderTest2@58c1670b]" name="loginTest" duration-ms="6" started-at="2018-08-08T08:21:19Z" data-provider="getData" finished-at="2018-08-08T08:21:19Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[testuser_1]]>
+                <![CDATA[User1]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[test123]]>
+                <![CDATA[Pwd1]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyUserLogin -->
-        <test-method status="PASS" signature="verifyUserLogin(java.lang.String, java.lang.String)[pri:0, instance:dataproviderutils.DataProviderTest@4abdb505]" name="verifyUserLogin" duration-ms="16248" started-at="2018-08-07T14:18:25Z" data-provider="Authentication" finished-at="2018-08-07T14:18:41Z">
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="loginTest(java.lang.String, java.lang.String)[pri:0, instance:dataproviderutils.DataProviderTest2@58c1670b]" name="loginTest" duration-ms="1" started-at="2018-08-08T08:21:19Z" data-provider="getData" finished-at="2018-08-08T08:21:19Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[testuser_2]]>
+                <![CDATA[User2]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[India123]]>
+                <![CDATA[Pwd2]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyUserLogin -->
-        <test-method status="PASS" signature="verifyUserLogin(java.lang.String, java.lang.String)[pri:0, instance:dataproviderutils.DataProviderTest@4abdb505]" name="verifyUserLogin" duration-ms="15100" started-at="2018-08-07T14:18:41Z" data-provider="Authentication" finished-at="2018-08-07T14:18:57Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[testuser_3]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Password1]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyUserLogin -->
-      </class> <!-- dataproviderutils.DataProviderTest -->
-    </test> <!-- testng_dataprovider_test -->
-  </suite> <!-- dry run - testng data provider -->
+        </test-method> <!-- loginTest -->
+      </class> <!-- dataproviderutils.DataProviderTest2 -->
+    </test> <!-- provider1 -->
+  </suite> <!-- dry run - same class data provider -->
 </testng-results>
