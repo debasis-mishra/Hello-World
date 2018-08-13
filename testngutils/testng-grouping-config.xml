@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name ="dry run - testng">
+	<test name = "testng - grouping">
+		 <groups>
+			 <run>
+			 	<include name="SmokeTest" />
+			 	<include name="FunctionalTest" />
+			 </run>
+			 </groups>
+		<classes>
+			<class name  = "groupingutils.GroupingTest1"></class>
+			<class name  = "groupingutils.GroupingTest2"></class>
+		</classes>
+	</test>
+</suite>""

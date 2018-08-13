@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="dry run - testng" duration-ms="31" started-at="2018-08-09T09:40:17Z" finished-at="2018-08-09T09:40:17Z">
+    <groups>
+      <group name="SmokeTest">
+        <method signature="GroupingTest1.verifyGrouping1()[pri:0, instance:groupingutils.GroupingTest1@7a9273a8]" name="verifyGrouping1" class="groupingutils.GroupingTest1"/>
+      </group> <!-- SmokeTest -->
+      <group name="FunctionalTest">
+        <method signature="GroupingTest1.verifyGrouping1()[pri:0, instance:groupingutils.GroupingTest1@7a9273a8]" name="verifyGrouping1" class="groupingutils.GroupingTest1"/>
+        <method signature="GroupingTest2.verifyGrouping2()[pri:0, instance:groupingutils.GroupingTest2@26a7b76d]" name="verifyGrouping2" class="groupingutils.GroupingTest2"/>
+      </group> <!-- FunctionalTest -->
+    </groups>
+    <test name="testng - grouping" duration-ms="31" started-at="2018-08-09T09:40:17Z" finished-at="2018-08-09T09:40:17Z">
+      <class name="groupingutils.GroupingTest1">
+        <test-method status="PASS" signature="verifyGrouping1()[pri:0, instance:groupingutils.GroupingTest1@7a9273a8]" name="verifyGrouping1" duration-ms="8" started-at="2018-08-09T09:40:17Z" finished-at="2018-08-09T09:40:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGrouping1 -->
+      </class> <!-- groupingutils.GroupingTest1 -->
+      <class name="groupingutils.GroupingTest2">
+        <test-method status="PASS" signature="verifyGrouping2()[pri:0, instance:groupingutils.GroupingTest2@26a7b76d]" name="verifyGrouping2" duration-ms="2" started-at="2018-08-09T09:40:17Z" finished-at="2018-08-09T09:40:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGrouping2 -->
+      </class> <!-- groupingutils.GroupingTest2 -->
+    </test> <!-- testng - grouping -->
+  </suite> <!-- dry run - testng -->
+</testng-results>
